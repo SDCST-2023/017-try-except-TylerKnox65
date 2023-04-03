@@ -15,3 +15,9 @@ The reciprocal of 3 is 0.3333333333333333
 The reciprocal of 4 is 0.25
 """
 numbers = [0,1,2,3,4]
+for i in numbers:
+    try:
+        x = 1/numbers[i]
+        print(f"Reciprocal is {x}")
+    except:
+        print(f"The reciprocal of {numbers[i]} does not exist")
